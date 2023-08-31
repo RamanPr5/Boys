@@ -1,4 +1,4 @@
-let name = prompt('Your name?');
+let name = prompt('Как тебя зовут?');
 
 
 const buttonElem = document.querySelector('.box-2');
@@ -27,7 +27,7 @@ const closeModal = event => {
 let openModal = () => {
     modalElem.style.visibility = 'visible';
     modalElem.style.opacity = 1;
-    modalTitle.textContent = `Ну ты и пидор ${name}`;
+    modalTitle.textContent = `Вот ты и попался, ${name}!`;
 };
 
 buttonElem.addEventListener('click', openModal);
