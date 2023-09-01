@@ -1,4 +1,4 @@
-let name = prompt('Как тебя зовут?');
+let name = prompt('Как тебя зовут?', "Напиши свое имя");
 
 
 const buttonElem = document.querySelector('.box-2');
